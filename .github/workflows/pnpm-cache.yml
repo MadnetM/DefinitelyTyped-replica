@@ -11,7 +11,7 @@ jobs:
     - uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8
       with:
         node-version: '20'
-    - uses: pnpm/action-setup@d882d12c64e032187b2edb46d3a0d003b7a43598
+    - uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda
     - id: pnpm-cache
       name: Get pnpm cache info
       run: 'echo "store=$(pnpm store path)" >> $GITHUB_OUTPUT
